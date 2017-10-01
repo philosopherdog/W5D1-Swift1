@@ -13,6 +13,8 @@
 		AAD455B31F817C3D00060CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD455B21F817C3D00060CDE /* Assets.xcassets */; };
 		AAD455B61F817C3D00060CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAD455B41F817C3D00060CDE /* LaunchScreen.storyboard */; };
 		AAD455B91F817C3D00060CDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD455B81F817C3D00060CDE /* main.m */; };
+		AAD455C11F817C5000060CDE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD455BF1F817C5000060CDE /* Person.m */; };
+		AAD455C71F817CA800060CDE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AAD455C61F817CA800060CDE /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		AAD455B51F817C3D00060CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAD455B71F817C3D00060CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AAD455B81F817C3D00060CDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AAD455BF1F817C5000060CDE /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		AAD455C01F817C5000060CDE /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		AAD455C61F817CA800060CDE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,18 @@
 		AAD455A81F817C3D00060CDE /* InteropSwiftObjc */ = {
 			isa = PBXGroup;
 			children = (
+				AAD455C01F817C5000060CDE /* Person.h */,
+				AAD455BF1F817C5000060CDE /* Person.m */,
+				AAD455B71F817C3D00060CDE /* Info.plist */,
+				AAD455C51F817C7F00060CDE /* Supporting Files */,
+			);
+			path = InteropSwiftObjc;
+			sourceTree = "<group>";
+		};
+		AAD455C51F817C7F00060CDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAD455C61F817CA800060CDE /* Default-568h@2x.png */,
 				AAD455A91F817C3D00060CDE /* AppDelegate.h */,
 				AAD455AA1F817C3D00060CDE /* AppDelegate.m */,
 				AAD455AC1F817C3D00060CDE /* ViewController.h */,
@@ -65,10 +82,9 @@
 				AAD455AF1F817C3D00060CDE /* Main.storyboard */,
 				AAD455B21F817C3D00060CDE /* Assets.xcassets */,
 				AAD455B41F817C3D00060CDE /* LaunchScreen.storyboard */,
-				AAD455B71F817C3D00060CDE /* Info.plist */,
 				AAD455B81F817C3D00060CDE /* main.m */,
 			);
-			path = InteropSwiftObjc;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAD455B61F817C3D00060CDE /* LaunchScreen.storyboard in Resources */,
+				AAD455C71F817CA800060CDE /* Default-568h@2x.png in Resources */,
 				AAD455B31F817C3D00060CDE /* Assets.xcassets in Resources */,
 				AAD455B11F817C3D00060CDE /* Main.storyboard in Resources */,
 			);
@@ -144,6 +161,7 @@
 			files = (
 				AAD455AE1F817C3D00060CDE /* ViewController.m in Sources */,
 				AAD455B91F817C3D00060CDE /* main.m in Sources */,
+				AAD455C11F817C5000060CDE /* Person.m in Sources */,
 				AAD455AB1F817C3D00060CDE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
